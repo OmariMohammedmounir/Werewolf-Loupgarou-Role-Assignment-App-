@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of players:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/num_players_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter a number"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select roles to include:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="0dp" />
+
+    <CheckBox
+        android:id="@+id/lbl_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Loup blanc"
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+    <CheckBox
+        android:id="@+id/ch_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Chien loup"
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+    <CheckBox
+        android:id="@+id/werewolf_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Loup garou"
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+    <CheckBox
+        android:id="@+id/lp_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Lapin blanc "
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+    <CheckBox
+        android:id="@+id/pf_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="petite fille  "
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+    <CheckBox
+        android:id="@+id/r_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Renard "
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+    <CheckBox
+        android:id="@+id/s_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Soeurs "
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+    <CheckBox
+        android:id="@+id/la_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Loup alpha"
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+    <CheckBox
+        android:id="@+id/lb_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Loup blue"
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+    <CheckBox
+        android:id="@+id/lk_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Loup kamikaze"
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+    <CheckBox
+        android:id="@+id/in_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="L'infecteur"
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+
+    <CheckBox
+        android:id="@+id/jf_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="joueur de flûte"
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+
+    <CheckBox
+        android:id="@+id/sorcier_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="sorcière"
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+    <CheckBox
+        android:id="@+id/hunter_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="chasseur"
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+    <CheckBox
+        android:id="@+id/cupid_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Cupidon"
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+    <CheckBox
+        android:id="@+id/salva_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Salvateur"
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+    <CheckBox
+        android:id="@+id/voyant_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="voyante"
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+    <CheckBox
+        android:id="@+id/v_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="voleur"
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+    <CheckBox
+        android:id="@+id/cor_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="corbeau"
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+    <CheckBox
+        android:id="@+id/en_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="l'enfant sauvage"
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+    <CheckBox
+        android:id="@+id/a_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="L'ange"
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+    <CheckBox
+        android:id="@+id/an_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="L'ancien"
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+    <CheckBox
+        android:id="@+id/i_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="L'idiot de village"
+        android:checked="true"
+        android:layout_marginTop="0dp" />
+
+    <Button
+        android:id="@+id/draw_button"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@color/a"
+        android:text="Draw Roles" />
+
+</LinearLayout>
